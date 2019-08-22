@@ -1,0 +1,32 @@
+/* Add here all your css styles (customizations) */
+.g-color-primary {
+    color: #ffc60b !important;
+}
+
+.light-theme .nav-item .nav-link:hover, .light-theme .nav-item.active .nav-link {
+    color: #ffc60b !important;
+}
+.g-bg-primary {
+    background-color: #ffc60b !important;
+}
+
+.g-bg-primary--hover:hover {
+    background-color: #ffc60b !important;
+}
+
+.g-color-primary--hover:hover {
+    color: #ffc60b !important;
+}
+.g-parent:hover .g-bg-primary--parent-hover {
+    background-color: #ffc60b !important;
+}
+
+.dark-theme .nav-item .nav-link:hover,
+.dark-theme .nav-item.active .nav-link {
+  color: #ffc60b !important;
+}
+
+::selection {
+    color: #fff;
+    background-color: #ffc60b;
+  }
